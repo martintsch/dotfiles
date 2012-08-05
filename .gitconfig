@@ -1,6 +1,6 @@
 [user]
-  user.name = "Martin Tschischauskas"
-  user.email = martin.tschischauskas@googlemail.com
+  name = "Martin Tschischauskas"
+  email = martin.tschischauskas@googlemail.com
 [color]
   status = auto
   diff = auto
