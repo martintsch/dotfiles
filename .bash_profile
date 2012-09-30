@@ -25,4 +25,4 @@ eval "$(rbenv init -)"
 
 export PATH="$PATH:/usr/local/bin:"
 
-export NODE_PATH="/usr/local/lib/node_modules"
+export NODE_PATH="/usr/local/lib/node"

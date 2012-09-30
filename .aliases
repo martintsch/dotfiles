@@ -1,0 +1,7 @@
+# Server
+function server() {
+    local host=`hostname`
+    local port="${1:-8888}"
+    (sleep 1 && open "http://${host}:${port}/")&
+    python -m SimpleHTTPServer "$port"
+}
