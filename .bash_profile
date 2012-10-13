@@ -23,6 +23,7 @@ fi
 
 eval "$(rbenv init -)"
 
-export PATH="$PATH:/usr/local/bin:"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH"
 
 export NODE_PATH="/usr/local/lib/node"
+
