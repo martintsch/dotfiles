@@ -5,3 +5,5 @@ function server() {
     (sleep 1 && open "http://${host}:${port}/")&
     python -m SimpleHTTPServer "$port"
 }
+
+alias be="bundle exec"
