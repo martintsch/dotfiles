@@ -8,6 +8,8 @@ function server() {
 
 alias be="bundle exec"
 
+alias p4merge='/Applications/p4merge.app/Contents/Resources/launchp4merge'
+
 xc () {
     xcode_proj=`find . -name "*.xc*" -d 1 | sort -r | head -1`
     if [[ `echo -n $xcode_proj | wc -m` = 0 ]]
@@ -17,4 +19,4 @@ xc () {
         echo "Found $xcode_proj"
         open "$xcode_proj"
     fi
-}	 	
+}
