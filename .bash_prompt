@@ -1,1 +1,1 @@
-export PS1="\n\h:\w[\033[1;32m\$(git branch 2>/dev/null | grep '*' | sed 's/* \(.*\)/\1/')\033[m] "
+export PS1="\n:\w[\033[1;32m\$(git branch 2>/dev/null | grep '*' | sed 's/* \(.*\)/\1/')\033[m] "
