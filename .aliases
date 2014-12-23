@@ -8,6 +8,8 @@ function server() {
 
 alias be="bundle exec"
 
+alias pg-start="postgres -D /usr/local/var/postgres/"
+
 alias p4merge='/Applications/p4merge.app/Contents/Resources/launchp4merge'
 
 xc () {
